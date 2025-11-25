@@ -61,24 +61,28 @@
 
 //Map
 
-void main() {
-  Map<String, dynamic> map = {
-    'name' : 'Biba',
-    'age' : '18',
-    'bool' : true,
-  };
-  print(map.entries); // возвращаеь значения
-  print(map.keys); // возващает ключи
-  print(map.values); // возвращает значения
-  print(map);
-  print(map.length);
+// void main() {
+//   Map<String, dynamic> map = {
+//     'name' : 'Biba',
+//     'age' : '18',
+//     'bool' : true,
+//   };
+//   print(map.entries); // возвращаеь значения
+//   print(map.keys); // возващает ключи
+//   print(map.values); // возвращает значения
+//   print(map);
+//   print(map.length);
 
-  map.addAll(
-    {
-      'asda' : 'qwewq', 
-    }
-  );
-  map['key'] = 'value'; 
-  print(map['name']);
-  print(map);
+//   map.addAll(
+//     {
+//       'asda' : 'qwewq', 
+//     }
+//   );
+//   map['key'] = 'value'; 
+//   print(map['name']);
+//   print(map);
+// }
+
+void main() {
+  
 }
