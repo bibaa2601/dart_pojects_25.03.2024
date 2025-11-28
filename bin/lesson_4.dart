@@ -60,7 +60,7 @@ void main() {
 }
 
 void calculator() {
-  print('Введите действие');
+  print('Введите первое число');
   int firstNum = int.tryParse(stdin.readLineSync() ?? '') ?? 0;
   print('Введите второе число');
   int secondNum = int.tryParse(stdin.readLineSync() ?? '') ?? 0;
